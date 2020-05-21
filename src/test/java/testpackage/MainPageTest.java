@@ -18,8 +18,8 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 import PagesPackage.Mainpage;
-import basepackage.base;
-public class MainPageTest extends base
+import basepackage.Base;
+public class MainPageTest extends Base
 
 {
 	Logger log = Logger.getLogger(MainPageTest.class);
@@ -44,15 +44,16 @@ BrowserIntilization();
 mainpage = new Mainpage();
 report = new ExtentReports("D:\\eclipse-workspace\\Automation\\test-output\\ExtentReport.html",true);
 test =report.startTest("Mobile Number");
+test =report.startTest("validatesearchbox");
 }
-@Test(priority =1)
+@Test(priority =0)
 public void verifymobilenumber() throws IOException
 {
 	/*System.out.println("_______________logging___________");*/
 String mobilenumber=mainpage.verifymobilephn();
 System.out.println(mobilenumber);
 Assert.assertTrue(mobilenumber.equals("0123-456-789"));
-log.info("This is info message");
+log.info("This is mobilenubervertification");
 
 {
 	String imagePath =Utility.takescreenshot();
@@ -60,13 +61,17 @@ test.addScreenCapture(imagePath);
 test.log(LogStatus.PASS, "Mobile number is verified");
 }	
 }
-@Test(priority =2)
+@Test(priority =-1)
 public void validatesearchbox()
 {
 	
 String title =mainpage.searchbox("jeans");
 
 Assert.assertTrue(title.equals("Search - My Store"));
+
+log.info("This is search box testing");
+
+test.log(LogStatus.PASS,"Search box is working fine" );
                               
 }	
 @AfterMethod()

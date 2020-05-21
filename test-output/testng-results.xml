@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-05T11:12:27Z" name="Default suite" finished-at="2020-04-05T11:13:10Z" duration-ms="43653">
+  <suite started-at="2020-05-21T23:49:27Z" name="Default suite" finished-at="2020-05-21T23:50:24Z" duration-ms="56763">
     <groups>
     </groups>
-    <test started-at="2020-04-05T11:12:27Z" name="Default test" finished-at="2020-04-05T11:13:10Z" duration-ms="43653">
+    <test started-at="2020-05-21T23:49:27Z" name="Default test" finished-at="2020-05-21T23:50:24Z" duration-ms="56763">
       <class name="testpackage.MainPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testpackage.MainPageTest@27462a88]" started-at="2020-04-05T12:12:27Z" name="setup" finished-at="2020-04-05T12:12:49Z" duration-ms="22130" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testpackage.MainPageTest@27462a88]" started-at="2020-05-22T00:49:27Z" name="setup" finished-at="2020-05-22T00:49:54Z" duration-ms="26628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifymobilenumber()[pri:1, instance:testpackage.MainPageTest@27462a88]" started-at="2020-04-05T12:12:49Z" name="verifymobilenumber" finished-at="2020-04-05T12:12:51Z" duration-ms="1882" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifymobilenumber -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testpackage.MainPageTest@27462a88]" started-at="2020-04-05T12:12:51Z" name="teardown" finished-at="2020-04-05T12:12:54Z" duration-ms="3318" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testpackage.MainPageTest@27462a88]" started-at="2020-04-05T12:12:54Z" name="setup" finished-at="2020-04-05T12:13:07Z" duration-ms="13451" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="validatesearchbox()[pri:2, instance:testpackage.MainPageTest@27462a88]" started-at="2020-04-05T12:13:07Z" name="validatesearchbox" finished-at="2020-04-05T12:13:10Z" duration-ms="2263" status="PASS">
+        <test-method signature="validatesearchbox()[pri:-1, instance:testpackage.MainPageTest@27462a88]" started-at="2020-05-22T00:49:54Z" name="validatesearchbox" finished-at="2020-05-22T00:49:58Z" duration-ms="3779" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatesearchbox -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testpackage.MainPageTest@27462a88]" started-at="2020-04-05T12:13:10Z" name="teardown" finished-at="2020-04-05T12:13:10Z" duration-ms="575" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testpackage.MainPageTest@27462a88]" started-at="2020-05-22T00:49:58Z" name="teardown" finished-at="2020-05-22T00:50:02Z" duration-ms="4115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testpackage.MainPageTest@27462a88]" started-at="2020-05-22T00:50:02Z" name="setup" finished-at="2020-05-22T00:50:21Z" duration-ms="18690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifymobilenumber()[pri:0, instance:testpackage.MainPageTest@27462a88]" started-at="2020-05-22T00:50:21Z" name="verifymobilenumber" finished-at="2020-05-22T00:50:23Z" duration-ms="2775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymobilenumber -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testpackage.MainPageTest@27462a88]" started-at="2020-05-22T00:50:23Z" name="teardown" finished-at="2020-05-22T00:50:24Z" duration-ms="635" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -7,11 +7,11 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.*;
-public class base
+public class Base
 {
 	public static WebDriver driver;
     
-	public base()
+	public Base()
 	{
 		Properties prop = new Properties();
 		FileInputStream file;
@@ -31,7 +31,7 @@ public class base
 	
 	public static void BrowserIntilization()
 	{
-		System.setProperty("webdriver.chrome.driver", "E:\\chromedriver_win32 (1)\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\chromedriver_win32 (3)\\chromedriver.exe");
 		driver= new ChromeDriver();
 		driver.get("http://automationpractice.com/index.php");
 		driver.manage().window().maximize();

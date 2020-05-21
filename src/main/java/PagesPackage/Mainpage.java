@@ -6,12 +6,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import basepackage.base;
+import basepackage.Base;
 
-public class Mainpage extends base
+public class Mainpage extends Base
 {
 	//object repository
 	public static String searchTitle;
+	
 @FindBy(xpath ="//strong")
 WebElement phn;
 
@@ -27,7 +28,7 @@ public Mainpage()
 
 {
 	super();
-	PageFactory.initElements(driver, this);
+	PageFactory.initElements(Base.driver, this);
 	
 }
 public  String verifymobilephn()
@@ -41,7 +42,7 @@ public String searchbox(String text)
 {
 	textbox.sendKeys(text);
     clickbutton.click();
-    searchTitle=driver.getTitle();
+    searchTitle=Base.driver.getTitle();
     System.out.println(searchTitle);
     return searchTitle;
 }

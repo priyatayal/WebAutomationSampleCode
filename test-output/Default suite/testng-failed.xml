@@ -6,7 +6,7 @@
       <class name="testpackage.MainPageTest">
         <methods>
           <include name="validatesearchbox"/>
-          <include name="teardown"/>
+          <include name="verifymobilenumber"/>
           <include name="setup"/>
         </methods>
       </class> <!-- testpackage.MainPageTest -->
